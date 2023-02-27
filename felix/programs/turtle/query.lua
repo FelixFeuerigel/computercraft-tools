@@ -343,7 +343,7 @@ while not done do
         end
     end
 
-    if depth >= height then
+    if depth >= height-1 then
         done = true
         break
     end
